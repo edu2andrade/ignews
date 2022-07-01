@@ -1,0 +1,472 @@
+{
+  "slices": {
+    "components": {
+      "my_content": {
+        "library": "slices",
+        "id": "my_content",
+        "name": "MyContent",
+        "description": "MyContent",
+        "model": {
+          "id": "my_content",
+          "type": "SharedSlice",
+          "name": "MyContent",
+          "description": "MyContent",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "MyContent",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "text": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Text",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "my_content",
+            "items": [
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1560457079-9a6532ccb118?w=900&h=500&fit=crop"
+                },
+                "text": [
+                  {
+                    "type": "paragraph",
+                    "text": "Excepteur magna ullamco id aliqua occaecat ullamco deserunt occaecat. Ex officia adipisicing deserunt officia nisi enim aliqua.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?w=900&h=500&fit=crop"
+                },
+                "text": [
+                  {
+                    "type": "paragraph",
+                    "text": "Amet ea irure ex adipisicing reprehenderit.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=900&h=500&fit=crop"
+                },
+                "text": [
+                  {
+                    "type": "paragraph",
+                    "text": "Officia nulla amet sit ut nulla esse enim ex. Sit voluptate duis ut consectetur ullamco consectetur quis adipisicing consequat sint laborum irure. Eiusmod magna qui reprehenderit quis veniam minim velit reprehenderit enim incididunt aliqua laborum enim veniam.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=900&h=500&fit=crop"
+                },
+                "text": [
+                  {
+                    "type": "paragraph",
+                    "text": "Occaecat laboris pariatur eu voluptate anim velit ea velit ad. Quis veniam consequat commodo sit est.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?w=900&h=500&fit=crop"
+                },
+                "text": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ullamco reprehenderit dolor magna proident ea cupidatat ut adipisicing adipisicing veniam cupidatat ad non.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Monetize global deliverables",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Adipisicing anim qui in id aliquip dolore consectetur nisi ullamco. Consequat sunt est ipsum deserunt exercitation aliqua anim voluptate do enim.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\andra\\Rocketseat\\ignite\\reactjs\\ignews\\.slicemachine\\assets\\slices\\MyContent\\default\\preview.png",
+            "width": 800,
+            "height": 63
+          }
+        }
+      },
+      "my_text": {
+        "library": "slices",
+        "id": "my_text",
+        "name": "MyText",
+        "description": "MyText",
+        "model": {
+          "id": "my_text",
+          "type": "SharedSlice",
+          "name": "MyText",
+          "description": "MyText",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "MyText",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "my_text",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Engage cutting-edge e-commerce",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Cillum amet enim non. Ex occaecat et do occaecat velit ex sit irure laborum laborum voluptate.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\andra\\Rocketseat\\ignite\\reactjs\\ignews\\.slicemachine\\assets\\slices\\MyText\\default\\preview.png",
+            "width": 800,
+            "height": 63
+          }
+        }
+      },
+      "title": {
+        "library": "slices",
+        "id": "title",
+        "name": "Title",
+        "description": "Title",
+        "model": {
+          "id": "title",
+          "type": "SharedSlice",
+          "name": "Title",
+          "description": "Title",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Title",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                }
+              },
+              "items": {
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Content",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "title",
+            "items": [
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=900&h=500&fit=crop"
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Labore nulla commodo aute consequat proident laborum excepteur pariatur nisi aliquip ipsum.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764?w=900&h=500&fit=crop"
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Consequat voluptate enim adipisicing et nostrud magna qui commodo occaecat dolore. Labore nulla incididunt Lorem ullamco. Officia ad velit aliqua eu minim elit do do reprehenderit et minim ea enim.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?w=900&h=500&fit=crop"
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Veniam in adipisicing nulla irure velit non tempor est duis laborum cupidatat commodo voluptate ullamco anim.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop"
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Consectetur consectetur enim do anim do mollit labore officia nulla aliquip quis est ex nulla pariatur. Consequat eiusmod aliqua duis duis non minim minim do amet eiusmod.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Officia irure voluptate tempor sit Lorem labore adipisicing consectetur cupidatat qui. Officia occaecat incididunt enim sit dolor magna.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 900,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Cupidatat eiusmod sunt pariatur culpa duis qui. Culpa esse laboris mollit deserunt aute quis est nulla fugiat sint et magna officia. Ad quis Lorem mollit eiusmod nostrud culpa exercitation deserunt proident.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Repurpose sticky synergies",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Minim id laborum nisi mollit velit cillum nulla occaecat.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\andra\\Rocketseat\\ignite\\reactjs\\ignews\\.slicemachine\\assets\\slices\\Title\\default\\preview.png",
+            "width": 800,
+            "height": 45
+          }
+        }
+      }
+    }
+  }
+}

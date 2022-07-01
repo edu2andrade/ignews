@@ -1,0 +1,133 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "title",
+    "items": [
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=900&h=500&fit=crop"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Labore nulla commodo aute consequat proident laborum excepteur pariatur nisi aliquip ipsum.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1586952518485-11b180e92764?w=900&h=500&fit=crop"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Consequat voluptate enim adipisicing et nostrud magna qui commodo occaecat dolore. Labore nulla incididunt Lorem ullamco. Officia ad velit aliqua eu minim elit do do reprehenderit et minim ea enim.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?w=900&h=500&fit=crop"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Veniam in adipisicing nulla irure velit non tempor est duis laborum cupidatat commodo voluptate ullamco anim.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=900&h=500&fit=crop"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Consectetur consectetur enim do anim do mollit labore officia nulla aliquip quis est ex nulla pariatur. Consequat eiusmod aliqua duis duis non minim minim do amet eiusmod.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Officia irure voluptate tempor sit Lorem labore adipisicing consectetur cupidatat qui. Officia occaecat incididunt enim sit dolor magna.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 900,
+            "height": 500
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Cupidatat eiusmod sunt pariatur culpa duis qui. Culpa esse laboris mollit deserunt aute quis est nulla fugiat sint et magna officia. Ad quis Lorem mollit eiusmod nostrud culpa exercitation deserunt proident.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Repurpose sticky synergies",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Minim id laborum nisi mollit velit cillum nulla occaecat.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]
