@@ -9,6 +9,8 @@ export function getPrismicClient(req?: unknown) {
   return client;
 }
 
+// This is how the Prismic doc's tell us to do:
+
 // Fill in your repository name
 // export const repositoryName = "ignews10001";
 
@@ -23,19 +25,14 @@ export function getPrismicClient(req?: unknown) {
 // If you are not using a router in your project, you can change this
 // to an empty array or remove the option entirely.
 
-// ERROR HERE...
 // routes: [
 // {
-//   type: "blogpost",
+//   type: "homepage",
 //   path: "/",
 // },
 // {
 //   type: "blogpost",
-//   path: "/posts",
-// },
-// {
-//   type: "blogpost",
-//   path: "/:slug",
+//   path: "/:uid",
 // },
 //   ],
 // });
