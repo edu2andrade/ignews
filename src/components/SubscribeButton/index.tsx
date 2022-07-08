@@ -18,6 +18,7 @@ export function SubscribeButton({ priceId }: SubscribeButtonProps) {
       signIn("github");
       return;
     }
+
     // if user already has an active subscription, redirect to /posts page:
     if (session.activeSubscription) {
       router.push("/posts");

@@ -3,7 +3,6 @@ import GithubProvider from "next-auth/providers/github";
 
 import { fauna } from "../../../services/fauna";
 import { query as q } from "faunadb";
-import { Session } from "inspector";
 
 export default NextAuth({
   secret: process.env.NEXTAUTH_SECRET,
