@@ -6,7 +6,7 @@ import styles from "./styles.module.scss";
 import { RichText } from "prismic-dom";
 import Link from "next/link";
 
-type post = {
+export type Post = {
   slug: string;
   title: string;
   excerpt: string;
@@ -14,7 +14,7 @@ type post = {
 };
 
 interface PostsProps {
-  posts: post[];
+  posts: Post[];
 }
 
 export default function Posts({ posts }: PostsProps) {
